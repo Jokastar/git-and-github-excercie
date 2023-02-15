@@ -5,9 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-    <p>Hello World</p>
+    <h1>Learning to use git and github</h1>
+
+    <h2>The 2 steps to push your work in a github repository</h2>
+
+    <h3>Modify your files locally</h3>
+    <ol>
+        <li>Modify your files in the working directory</li>
+        <li>Add the modified files in the stage phase by typing: git add "filename"</li>
+        <li>
+            Once your are ready to to change type: git commit -m "description of the change"
+            to add the new version of the files in git repository
+        </li>
+    </ol>
+    <h3>Push the modified files in Github</h3>
+    <ol>
+        <li>
+            Once the file in the git repo, it's time to push it to Github,
+            in order to do it you'll have to create a repo in Github and take the URL
+        </li>
+        <li>Then type in the command line:  git remote add origin "URL"</li>
+        <li> 
+            Now that you have the address of the Github repo you can push your work in it
+        </li>
+        <li>by first positioning yourself in the repo main branch by typing : git branch -M main
+             to connect yoursel to the main branch
+        </li>
+
+        <li>Finally type: git push -u origin main to push the modified files inside the Github repo</li>
+    </ol>
 </body>
 </html>
